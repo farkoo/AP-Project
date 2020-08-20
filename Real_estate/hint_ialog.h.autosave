@@ -1,0 +1,22 @@
+#ifndef HINT_DIALOG_H
+#define HINT_DIALOG_H
+
+#include <QDialog>
+
+namespace Ui {
+class Hint_Dialog;
+}
+
+class Hint_Dialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit Hint_ialog(QWidget *parent = nullptr);
+    ~Hint_dialog();
+
+private:
+    Ui::Hint_dialog *ui;
+};
+
+#endif // HINT_DIALOG_H
